@@ -1,0 +1,11 @@
+a - Interfaces publicadas estão sendo utilizadas por outros códigos que não podem ser acessados ou alterados. Enquanto interfaces publicas o acesso não é restrito e pode ser modificado.
+Interfaces publicadas não podem ser modificadas pois outros códigos podem estar utilizando-a e modificando-a, dessa maneira modificações podem quebrar essas interfaces em outros softwares.
+
+b - O mau cheiro Mudança Divergente é quando uma classe sofre diversas mudanças, enquanto na Cirurgia com Rifle uma mudança afeta várias classes.
+
+c - A afirmativa é falsa. Uma refatoração foca em usar boas práticas de código, para deixá-lo mais compreensível e facilitar sua manutenção e não para melhorar sua performance. Um exemplo é a substituição de variáveis temporárias, ao utilizar uma mesma váriavel para várias ocasiões se economiza memória, mas perde-se em legibilidade.
+
+d - Primeiramente ter uma boa suite de testes, após a refatoração eles devem passar, com isso é possível concluir que o software ainda retorna os resultados esperados. Também é possível definir métricas para análise do código antes e depois da refatoração para mostrar sua efetivadade.
+
+
+
